@@ -13,10 +13,10 @@
 
 # Tools and Technologies:
 ### Python Libraries:
-* Flask: Web framework for creating RESTful APIs (used for deployment).
-* pickle: Python object serialization library used for saving and loading machine learning models.
-* nltk: Natural Language Toolkit for NLP tasks (e.g., tokenization, lemmatization).
-* scikit-learn: Machine learning library for building and training models.
+* **Flask:** Web framework for creating RESTful APIs (used for deployment).
+* **pickle:** Python object serialization library used for saving and loading machine learning models.
+* **nltk:** Natural Language Toolkit for NLP tasks (e.g., tokenization, lemmatization).
+* **scikit-learn:** Machine learning library for building and training models.
 
 # Outcome:
 The outcome of this Sentiment Analysis project includes:
