@@ -1,10 +1,10 @@
 # Key Components:
-### 1) Data Preprocessing:
+### 1. Data Preprocessing:
 * Cleaning and preprocessing raw text data by removing noise (e.g., URLs, special characters).
 * Tokenization to split text into individual words (tokens).
 * Stopword removal to filter out common words (e.g., "the", "is") that don't contribute to sentiment analysis.
 * Lemmatization to convert words to their base or root form (e.g., "running" to "run").
-### 2) Model Loading and Prediction:
+### 2. Model Loading and Prediction:
 * Loading a pre-trained Logistic Regression model (loaded_model) and a vectorizer (loaded_vectorizer) from saved files.
 * Processing a given text input (test_string) using the defined preprocessing functions (process_tweet and list_to_string).
 * Transforming the preprocessed text into a numerical vector using the loaded vectorizer (test_vector).
