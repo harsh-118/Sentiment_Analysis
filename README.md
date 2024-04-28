@@ -2,7 +2,29 @@
 ### Overview
 This project implements a sentiment analysis web application using Flask, NLTK for natural language processing, and a trained logistic regression model. The application allows users to input text, which is then processed to determine the sentiment (positive or negative) of the input text.
 
-## Installation
+# Dependencies
+**Flask:** A web framework for Python used to build web applications. Install using pip install flask.
+```
+pip install flask
+```
+**pickle:** A module in Python used to serialize and deserialize objects. It is used here to load the trained machine learning model and vectorizer.
+**re:** A module in Python used for regular expressions. It is used here for text preprocessing.\
+**string:** A module in Python used to handle string operations. It is used here for text preprocessing.
+**nltk:** Natural Language Toolkit, a library for natural language processing. Install using pip install nltk.
+  * **twitter_samples:** Sample Twitter dataset from NLTK.
+  * **stopwords:** Module for stop words that come with NLTK.
+  * **PorterStemmer:** Module for stemming.
+  * **WordNetLemmatizer:** Module for lemmatization.
+  * **TweetTokenizer:** Module for tokenizing tweets.
+```
+pip install nltk
+```
+```
+python -m nltk.downloader wordnet
+python -m nltk.downloader omw-1.4
+```
+
+# Installation
 **Clone the Repository:** Clone the repository to your local machine using Git:
 ```
 git clone https://github.com/yourusername/sentiment-analysis.git
