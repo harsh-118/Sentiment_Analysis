@@ -1,3 +1,28 @@
+# Sentiment Analysis Web Application
+### Overview
+This project implements a sentiment analysis web application using Flask, NLTK for natural language processing, and a trained logistic regression model. The application allows users to input text, which is then processed to determine the sentiment (positive or negative) of the input text.
+
+## Installation
+**Clone the Repository:** Clone the repository to your local machine using Git:
+```
+git clone https://github.com/yourusername/sentiment-analysis.git
+```
+**Navigate to Project Directory:** Change your current directory to the project directory:
+```
+cd sentiment-analysis
+```
+**Install Dependencies:** Install the required dependencies by running:
+```
+pip install -r requirements.txt
+```
+### Usage
+**Run the Flask Application:** Start the Flask application by running the following command:
+```
+python app.py
+```
+**Access the Application:** Open a web browser and navigate to http://localhost:5000 to access the sentiment analysis web application.\
+**Input Text:** Enter the text you want to analyze into the input field provided on the web page.\
+**View Results:** The application will display the predicted sentiment (positive or negative) for the input text.
 # Key Components:
 ### 1. Data Preprocessing:
 * Cleaning and preprocessing raw text data by removing noise (e.g., URLs, special characters).
